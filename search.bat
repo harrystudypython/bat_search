@@ -14,21 +14,21 @@ echo exit
 
 echo.
 
-#set /p b=ÊäÈëÄãÏëÊ¹ÓÃµÄËÑË÷ÒıÇæ£º
+# set /p b=è¾“å…¥ä½ æƒ³ä½¿ç”¨çš„æœç´¢å¼•æ“ï¼š
 
-#goto %b%
+# goto %b%
 
-#:baidu
+# :baidu
 
-#set /p c=ÊäÈëÄãÏëËÑË÷µÄ¹Ø¼ü×Ö£º
+# set /p c=è¾“å…¥ä½ æƒ³æœç´¢çš„å…³é”®å­—ï¼š
 
-#start %a% http://www.baidu.com/s?wd=%c%
+# start %a% http://www.baidu.com/s?wd=%c%
 
-#goto 1
+# goto 1
 
 :bing
 
-set /p c=ÊäÈëÄãÏëËÑË÷µÄ¹Ø¼ü×Ö£º
+set /p c=è¾“å…¥ä½ æƒ³æœç´¢çš„å…³é”®å­—ï¼š
 
 start %a% http://cn.bing.com/search?q=%a%&ie=utf-8
 
