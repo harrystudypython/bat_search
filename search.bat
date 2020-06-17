@@ -14,17 +14,17 @@ echo exit
 
 echo.
 
-# set /p b=输入你想使用的搜索引擎：
+ set /p b=输入你想使用的搜索引擎：
 
-# goto %b%
+ goto %b%
 
-# :baidu
+ :baidu
 
-# set /p c=输入你想搜索的关键字：
+ set /p c=输入你想搜索的关键字：
 
-# start %a% http://www.baidu.com/s?wd=%c%
+ start %a% http://www.baidu.com/s?wd=%c%
 
-# goto 1
+ goto 1
 
 :bing
 
